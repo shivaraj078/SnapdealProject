@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto',sans-serif;
+    background: #f7f7f7;
+}
+
+#headerSection
+{
+    background: #e40046;
+    height: 100px;
+}
+
+
+.topmenu
+{
+    margin: 0;
+    background: #c7003d;
+    color: #fae9ef;
+    position: relative;
+    z-index: 1;
+    height: 30px;
+    font-weight: 600;
+    
+}
+
+.topmenu p
+{
+    margin: 0;
+    
+}
+
+.leftpara
+{
+    width: 50%;
+    float: left;
+}
+
+.rightUlMenu
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 42%;
+    float: right;
+}
+
+.rightUlMenu li
+{
+    display: inline-block;
+}
+
+.rightUlMenu li a
+{
+    color: #d8d8d8;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+#headerSection .marginleftandrightspace, .logoandcartSection>article
+{
+    width: 90%;
+    margin: 0 auto;
+    line-height: 28px;
+    font-size: 12px;
+}
+
+.logoandcartSection>article .logo
+{
+    width:17%;
+    float: left;
+    position: relative;
+    top: 18px;
+}
+
+.logoandcartSection>article .search
+{
+    width: 53%;
+    float: left;
+    line-height: 70px;
+}
+
+.logoandcartSection>article .cart
+{
+    width: 30%;
+    float: right;
+    /* text-align: right; */
+    line-height: 70px;
+}
+
+#search
+{
+    width: 80%;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 2px;
+    background: #f8f8f8;
+    color: #909090                                                                                                                                                                                                                                                                                                                                                                                                                                              ;
+}
+
+.searchtext
+{
+    padding: 11px 29px;
+    background: black;
+    color: #f8f8f8;
+    border-radius: 0px 3px 3px 0px;
+    margin: 0px -2px;
+    position: relative;
+}
+
+#insideDiv
+{
+    display: none;
+}
+
+.rightNavigation
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.rightNavigation li a .fa-shopping-cart, .fa-user
+{
+    font-size: 24px;
+    padding: 14px ;
+}
+
+.rightNavigation li
+{
+    display: inline-block;
+}
+
+.rightNavigation li a
+{
+    padding: 33px;
+    font-size: 17px;
+    text-decoration: none;
+    color: rgb(255, 253, 253);
+}
+
+.rightNavigation li:nth-child(2):hover
+{
+    background: #111;
+}
+
+.rightNavigation li:nth-child(2):hover #insideDiv
+{
+    background: #111;
+    display: table-cell;
+    position: absolute;
+
+}
+
+/* contentSection css here */
+#contentSection
+{
+    background: #f7f7f7;
+    height: 100vh;   /*vh : view height*/
+    
+}
+
+#contentSection>article
+{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contentLeft
+{
+    width: 20%;
+    float: left;
+    background:white;
+}
+
+.contentMiddle
+{
+    width: 56%;
+    float: left;
+    background:white;
+    margin: 0 2%;
+}
+
+.contentRight
+{
+    width: 20%;
+    float: right;
+    background:white;
+}
+
+#contentSection>article
+{
+    margin-top: 40px !important;
+    
+
+}
+
+.contentLeft h5
+{
+    padding: 15px;
+    margin: 0;
+    font-size: 12px;
+    font-weight: 100;
+}
+.menulist
+{
+    padding: 15px;
+    margin: 0;
+    list-style: none;
+}
+
+.menulist li a
+{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 100;
+    width: 97%;
+    
+}
+
+.menulist li a:hover
+{
+    border-left: 3px solid red;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    background: #f7f7f7;
+    transition: ease-in-out all 0.3s;
+}
+
+.icon_images
+{
+    
+    height: 37px;
+    width: 37px;
+    background-repeat: no-repeat;
+    display: inline-block;    
+}
+
+.all_offer_icon
+{
+    background: url('../images/Discount_Right_icon-f5105.png');
+    background-size: cover; /*importantttttt*/
+}
+
+.mobile_icon
+{
+    background: url('../images/30x30mobile2.png');
+    background-size: cover; /*importantttttt*/
+}
+
+.electronic_icon
+{
+    background: url('../images/Electronic-6212c.png');
+    background-size: cover; /*importantttttt*/
+}
+
+.computer_gaming_icon
+{
+    background: url('../images/ComputerGaming-a02cf.png');
+    background-size: cover; /*importantttttt*/   
+}
+
+.home_kitchen_icon
+{
+    background: url('../images/Homekitchenfurnishing-3eda1.jpg');
+    background-size: cover; /*importantttttt*/   
+}
+
+/* .contentMiddle h1
+{
+    text-transform: uppercase;
+    text-shadow: 5px 4px 8px #e40046;
+    padding: 10px 64px;
+    letter-spacing: 7px;
+    font-size: 50px;
+    text-align: center;
+} */
+
+/* #display
+{
+    clear: both;
+    background: yellow;
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+} */
+
+.contentMiddle img
+{
+    width: 100%;
+    height: 300px;
+    cursor: pointer;
+}
+
+.contentMiddle ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin: 5px;
+}
+
+.contentMiddle ul li:hover
+{
+    border-bottom: 2px solid brown;
+    transition: 0.3s;
+}
+
+.contentRight img
+{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
